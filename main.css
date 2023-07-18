@@ -1,5 +1,8 @@
+
+
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -31,8 +34,13 @@ html {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 100%;
     margin: 0;
     font-family: "Futura PT";
@@ -41,7 +49,9 @@ body {
     background-color: #f9f9f9;
 }
 main {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
 }
 
 img {
@@ -64,9 +74,15 @@ img {
 }
 
 .start-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     padding-top: 11px;
     padding-bottom: 9px;
 }
@@ -94,6 +110,8 @@ img {
 }
 
 .start-header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     margin-top: 0;
@@ -161,6 +179,8 @@ img {
 }
 
 .start-header-last-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     margin-top: 0;
@@ -184,8 +204,12 @@ img {
 
 .end-header-wrapper {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     padding-top: 18px;
     padding-bottom: 20px;
 }
@@ -210,6 +234,8 @@ img {
 }
 
 .end-haeader-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
@@ -287,8 +313,12 @@ img {
 }
 
 .hero-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 .hero-wrapper {
@@ -434,6 +464,8 @@ img {
 }
 
 .service-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
@@ -604,6 +636,8 @@ img {
 }
 
 .service-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 41px;
     padding-bottom: 41px;
@@ -732,8 +766,12 @@ img {
 
 
 .form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .last-article-wrapper-title {
@@ -775,8 +813,12 @@ img {
 }
 
 .last-section-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 24px;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
     list-style: none;
     margin-top: 0;
     margin-right: 98px;
@@ -858,6 +900,8 @@ img {
 }
 
 .wraperr {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-right: 34px;
 }
@@ -867,8 +911,12 @@ img {
 }
 
 .anker-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 7px;
+    -webkit-column-gap: 7px;
+       -moz-column-gap: 7px;
+            column-gap: 7px;
     margin-bottom: 32px;
 }
 
@@ -897,6 +945,8 @@ img {
 
 .lastt-section-wrapper {
     width: 1463px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     background-image: url("./images/fish.png");
@@ -970,6 +1020,8 @@ img {
 }
 
 .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 60px;
     padding-bottom: 20px;
@@ -1103,7 +1155,11 @@ img {
 }
 
 .last-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     padding-top: 8px;
     padding-bottom: 40px;
