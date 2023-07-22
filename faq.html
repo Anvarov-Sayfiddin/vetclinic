@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./normalize.css"> -->
-    <!-- <link rel="stylesheet" href="./contact.css"> -->
-    <link rel="stylesheet" href="./main.contact.css">
-    <title>vet_2page</title>
+    <!-- <link rel="stylesheet" href="./main.faq.css"> -->
+    <link rel="stylesheet" href="./faq.css">
+    <title>vet_FAQ</title>
 </head>
 <body>
 
-    <header class="site-header">
+    <header class="site header">
         <div class="start-header">
             <div class="container">
                 <address class="start-address">
@@ -37,8 +37,8 @@
                             <li class="end-haeader-item"><a class="end-header-item-link" href="#">О Клинике</a></li>
                             <li class="end-haeader-item"><a class="end-header-item-link" href="#">Наши Услуги</a></li>
                             <li class="end-haeader-item"><a class="end-header-item-link" href="#">Полезные Статьи</a></li>
-                            <li class="end-haeader-item"><a class="end-header-item-link" href="./faq.html">FAQ</a></li>
-                            <li class="end-haeader-item"><a class="end-header-item-link" href="#">Контакты</a></li>
+                            <li class="end-haeader-item"><a class="end-header-item-link" href="#">FAQ</a></li>
+                            <li class="end-haeader-item"><a class="end-header-item-link" href="./contact.html">Контакты</a></li>
                         </ul>
                     </nav>
                     <a class="end-header-last-link" href="#">Задать вопрос</a>
@@ -47,42 +47,66 @@
         </div>
     </header>
 
-    <main class="site-main">
-        <section class="contact-hero">
+    <main class="question">
+        <section class="question__section">
             <div class="container">
-                <div class="contact-wrapper">
-                    <h1 class="contact-title">Контакты</h1>
-                    <p class="contact-text">
+                <div class="question__section-wrapper">
+                    <h1 class="question__title">FAQ</h1>
+                    <h2 class="visually-hidden"></h2>
+                    <p class="question__desc">
                         Узнать информацию о наших услугах, записаться на прием к врачу или проконсультироваться вы можете по телефону, в любое удобное для вас время.
                     </p>
+                    <a class="question__link" href="#">Задать вопрос</a>
                 </div>
-                <ul class="contact-list">
-                    <li class="contact-item">г. Мариуполь, проспект Победы, 48а</li>
-                    <li class="contact-item"> <div class="time-wrapper"><strong>Пн - Пт </strong><time datetime="2023-07-05">8:00 - 18:00</time>
-                    </div><strong>Сб - Вс </strong><time>8:00 - 14:00</time> </li>
-                    <li class="contact-item">
-                        <ul class="contact-tel-list">
-                        <li><a class="start-header-item-link" href="tel:+0676347574">(067) 634 -75 - 74</a></li>
-                        <li><a class="start-header-item-link" href="tel:+0637570131">(0637) 57 - 01 - 31</a></li>
-                        <li><a class="start-header-item-link" href="tel:+0982664389">(098) 266 - 43 - 89</a></li>
-                    </ul></li>
+                <ul class="question-list list">
+                    <li class="list__item">
+                        <time class="list__time" datetime="2020-09-01">01.09.2020</time>
+                        <a class="list__link" href="#">Пономаренко Наталия</a>
+                        <h3 class="list__title">Как часто следует проводить обработки от блох и клещей?</h3>
+                        <div class="list__desc-wrapper">
+                            <p class="list__text">
+                                Самые качественные капли от блох и клещей как правило действуют не более одного месяца. Поэтому собак и кошек следует обрабатывать от блох именно с такой периодичностью. Обработки противопаразитарными каплями особенно актуальны для собак в период с марта по декабрь, когда активизируют свою активность клещи. Подобрать препарат от блох и клещей Вам помогут в ветеринарном комплексе “Передовой”. Также здесь Вам помогут в расчёте дозировки этих препаратов.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <time class="list__time list__time--next" datetime="2020-09-01">01.09.2020</time>
+                        <a class="list__link" href="#">Пономаренко Наталия</a>
+                        <div class="list__subtitle-wrapper">
+                            <h3 class="list__title list__title--next">Может ли кошка или собака никогда не выходящая из дома подхватить блох?</h3>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <time class="list__time" datetime="2020-09-01">01.09.2020</time>
+                        <a class="list__link" href="#">Пономаренко Наталия</a>
+                        <div class="list__subtitle-wrapper">
+                            <h3 class="list__title list__title--next">Может ли кошка или собака никогда не выходящая из дома подхватить блох?</h3>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <time class="list__time list__time--next" datetime="2020-09-01">01.09.2020</time>
+                        <a class="list__link" href="#">Пономаренко Наталия</a>
+                        <div class="list__subtitle-wrapper">
+                            <h3 class="list__title list__title--next">Чем очищать глаза собаке или кошке?</h3>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <time class="list__time" datetime="2020-09-01">01.09.2020</time>
+                        <a class="list__link" href="#">Пономаренко Наталия</a>
+                        <div class="list__subtitle-wrapper">
+                            <h3 class="list__title list__title--next">Чем лучше кормить – натуральным или готовым кормом?</h3>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <time class="list__time list__time--next" datetime="2020-09-01">01.09.2020</time>
+                        <a class="list__link" href="#">Пономаренко Наталия</a>
+                        <div class="list__subtitle-wrapper">
+                            <h3 class="list__title list__title--next">Зачем нужны витамины и в каком возрасте их нужно давать?</h3>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
-
-        <section class="last-contact-section">
-            <div class="container">
-                <h2 class="last-section-title">Как нас найти?</h2>
-                <div class="last-contact-section-wrapper">
-                    <div class="last-contact-iframe">
-                        <iframe class="contact-iframe"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.565682645302!2d37.  642411599999996!3d47.1075844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.     1!3m3!1m2!1s0x40e6e6701cd9c691%3A0xe9b99fd0268f089c!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNGLLCA0ONCwLCDQnNCw0YDQuNGD0L_QvtC70YwsINCU0L7QvdC10YbQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA4NzUwMA!5e0!3m2!1sru!2s!4v1688664259308!5m2!1sru!2s" width="847"  height="466" 
-                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <img class="last-contact-img" src="./images/contact-home.png" width="769" height="512" alt="home">
-                </div>
-            </div>
-        </section>
-
     </main>
 
     <footer class="site-footer">
@@ -97,7 +121,7 @@
                 <ul class="footer-start-listt">
                     <li class="footer-start-list-item"><a class="footer-start-list-item-link" href="#">Полезные Статьи</a></li>
                     <li class="footer-start-list-item"><a class="footer-start-list-item-link" href="./faq.html">FAQ</a></li>
-                    <li class="footer-start-list-item"><a class="footer-start-list-item-link" href="#">Контакты</a></li>
+                    <li class="footer-start-list-item"><a class="footer-start-list-item-link" href="./contact.html">Контакты</a></li>
                 </ul>
                 <ul class="time-list">
                     <li class="time-list-item"><strong>Пн - Пт </strong><time datetime="2020-07-21">8:00 - 18:00</time></li>
@@ -117,7 +141,6 @@
             </div>
         </div>
     </footer>
-
     
 </body>
 </html>
